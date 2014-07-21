@@ -24,7 +24,7 @@ keeping the features I find useful.
 
 ![screenshot](pomaii.png?raw=true "Poma ][")
 
-###Poma ][ (varian)###
+###Poma ][ (variant)###
 
 This is a variant of Poma ][, with darker text and lighter comments and 
 keywords.
