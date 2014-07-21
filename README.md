@@ -22,11 +22,11 @@ Because I don't specially appreciate the proliferation of styles used when
 syntax highlighting, I just tried to keep the number of styles low, while 
 keeping the features I find useful.
 
-![screenshot](pomaii.png "Poma ][")
+![screenshot](pomaii.png?raw=true "Poma ][")
 
 ###Poma ][ (varian)###
 
 This is a variant of Poma ][, with darker text and lighter comments and 
 keywords.
 
-![screenshot](pomaii-var.png "Poma ][ (variant)")
+![screenshot](pomaii-var.png?raw=true "Poma ][ (variant)")
