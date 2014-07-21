@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (C) 2014 Daniel Guerrero <daniel.guerrero.miralles@gmail.com>
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+
+
+ Theme based on the Cobalt style from Will Farrington
+-->
+
+<style-scheme id="pomaii" _name="Poma ][" version="1.0">
+  <author>Daniel Guerrero</author>
+  <_description>A green blast from the past</_description>
+
+  <!-- Colors -->
+  <color name="dark"        value="#23574B"/>
+  <color name="mid_dark"    value="#388972"/>
+  <color name="mid_light"   value="#59B99E"/>
+  <color name="light"       value="#61F4C8"/>
+
+  <!-- Global Settings -->
+
+  <style name="text"                        foreground="light" background="dark"/>
+  <style name="selection"                   foreground="dark" background="mid_light"/>
+  <style name="cursor"                      foreground="light"/>
+  <style name="current-line"                background="mid_dark"/>
+  <style name="line-numbers"                foreground="mid_light" background="dark"/>
+  <style name="draw-spaces"                 foreground="light"/>
+  
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               background="mid_dark"/>
+  <style name="bracket-mismatch"            background="mid_light" bold="false"/>
+  
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="light" background="mid_dark"/>
+
+  <!-- Bookmarks FIXME -->
+  <style name="bookmark"                    background="light"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="mid_light" italic="true"/>
+  <style name="def:shebang"                 foreground="mid_light" italic="true"/>
+  <style name="def:doc-comment-element"     bold="true"/>
+
+  <!-- Constants and Variables-->
+  <style name="def:constant"                foreground="mid_light"/>
+  <style name="def:string"                  foreground="mid_light"/>
+  <style name="def:special-char"            foreground="mid_light"/>
+  <style name="def:special-constant"        foreground="mid_light" bold="true"/>
+  <style name="def:number"                  foreground="mid_light"/>
+  <style name="def:floating-point"          foreground="mid_light"/>
+  <style name="def:keyword"                 foreground="mid_light"/>
+  <style name="def:builtin"                 foreground="mid_light" bold="true"/>
+  <style name="def:variable"                foreground="mid_light"/>
+  
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="light"/>
+  <style name="def:function"                use-style="def:identifier"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="light"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="mid_light"/>
+  
+  <!-- Others -->
+  <style name="def:error"                   foreground="light" background="dark" bold="true"/>
+  <style name="def:note"                    foreground="light" bold="true"/>
+  <style name="def:net-address-in-comment"  foreground="light" italic="false" underline="true"/>
+  <style name="def:preprocessor"            foreground="light"/>
+    
+  <!-- Unknown? -->
+  <style name="def:specials"                foreground="light" background="dark"/>
+  <style name="def:boolean"                 foreground="light"/>
+
+  <!-- C Styles -->
+  <style name="c:preprocessor"              foreground="light" bold="true"/>
+  <style name="c:included-file"             foreground="light"/>
+  <style name="c:common-defines"            foreground="light" bold="true"/>
+
+  <!-- Diff Styles -->
+  <style name="diff:ignore"                 foreground="light"/>
+  <style name="diff:added-line"             foreground="light"/>
+  <style name="diff:removed-line"           foreground="light"/>
+  <style name="diff:changed-line"           foreground="light"/>
+  <style name="diff:diff-file"              foreground="light" bold="true"/>
+  <style name="diff:location"               foreground="light"/>
+  <style name="diff:special-case"           foreground="light" bold="true"/>
+
+  <!-- Ruby Styles -->
+  <style name="ruby:module-handler"         foreground="light"/>
+  <style name="ruby:symbol"                 foreground="light"/>
+  <style name="ruby:regex"                  foreground="light"/>
+
+  <!-- SH Styles -->
+  <style name="sh:function"                 foreground="light"/>
+  
+  <!-- XML Styles -->
+  <style name="xml:attribute-name"          foreground="light"/>
+  <style name="xml:element-name"            foreground="light"/>
+  <style name="xml:entity"                  foreground="light"/>
+  <style name="xml:processing-instruction"  bold="true"/>
+
+</style-scheme>
